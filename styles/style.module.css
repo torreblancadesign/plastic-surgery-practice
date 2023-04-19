@@ -1,0 +1,29 @@
+.container {
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  color: white;
+  cursor: pointer;
+}
+
+section {
+  padding: 50px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;��
