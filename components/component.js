@@ -6,7 +6,7 @@ const Component = () => {
 
   useEffect(() => {
     async function fetchData() {
-      const res = await fetch("/api/api.js");
+      const res = await fetch("../pages/api/api.js");
       const jsonData = await res.json();
       setData(jsonData);
     }
